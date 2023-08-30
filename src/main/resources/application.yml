@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: liushu
+  datasource:
+    url: ${DATABASE_URL}
+    username: ${DATABASE_USERNAME}
+    password: ${DATABASE_PASSWORD}
+  jpa:
+    generate-ddl: true
